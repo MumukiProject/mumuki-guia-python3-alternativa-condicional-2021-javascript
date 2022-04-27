@@ -1,0 +1,10 @@
+expectation "`valor_envido` no debe tener un retorno por cada carta posible":
+  through `valor_envido` ! (
+    returns with 1 ||
+    returns with 2 ||
+    returns with 3 ||
+    returns with 4 ||
+    returns with 5 ||
+    returns with 6 ||
+    returns with 7
+  );

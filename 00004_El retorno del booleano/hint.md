@@ -1,0 +1,1 @@
+Los números positivos son los mayores a 0. :wink:

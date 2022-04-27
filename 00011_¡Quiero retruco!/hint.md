@@ -1,0 +1,1 @@
+Para el caso en que las cartas sean de distinto palo te va a servir el ya conocido `max`. :sunglasses:

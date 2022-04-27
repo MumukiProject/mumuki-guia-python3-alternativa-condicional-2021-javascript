@@ -1,0 +1,2 @@
+Versión inicial basada en https://github.com/MumukiProject/mumuki-guia-python-practica-funciones-y-tipos-de-datos
+y https://github.com/MumukiProject/mumuki-guia-python-funciones-tipos-de-datos

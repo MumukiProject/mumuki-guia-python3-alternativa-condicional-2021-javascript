@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:medalla_segun_puesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:medalla_segun_puesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: medalla_segun_puesto
+  inspection: UsesIf
