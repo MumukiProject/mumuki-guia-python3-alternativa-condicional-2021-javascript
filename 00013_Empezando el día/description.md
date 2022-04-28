@@ -1,10 +1,10 @@
 Acaba de empezar el día :sunrise: y ya tenemos que hacer una nueva función :sleeping:.
 
-> Definí la función `saludar_a` que tome un nombre y salude a la persona con un clásico _Buenos días_: 
+> Definí la función `saludarA` que tome un nombre y salude a la persona con un clásico _Buenos días_: 
 > 
-> ```python
-> ム saludar_a("May")
+> ```javascript
+> ム saludarA("May")
 > "Buenos días May"
-> ム saludar_a("Gus")
+> ム saludarA("Gus")
 > "Buenos días Gus"
 > ```

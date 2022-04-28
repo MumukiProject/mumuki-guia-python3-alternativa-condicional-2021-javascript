@@ -1,7 +1,8 @@
-class Test(unittest.TestCase):
+it("saludarA('Gus') retorna 'Buenos días Gus'", () => {
+  assert.equal(saludarA('Gus'), 'Buenos días Gus')
+})
 
-  def test_saludar_a_gus(self):
-    self.assertEquals(saludar_a("Gus"), "Buenos días Gus")
-    
-  def test_saludar_a_may(self):
-    self.assertEquals(saludar_a("May"), "Buenos días May")
+it("saludarA('May') retorna 'Buenos días Gus'", () => {
+  assert.equal(saludarA('May'), 'Buenos días May')
+})
+
