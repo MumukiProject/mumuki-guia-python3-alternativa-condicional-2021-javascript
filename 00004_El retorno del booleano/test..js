@@ -1,38 +1,48 @@
+describe("numeros positivos menores a 100 y diferentes de 15:", () => {
+  it("esNumeroDeLaSuerte(2) es verdadero", () => {
+      assert(esNumeroDeLaSuerte(2) === true, "esNumeroDeLaSuerte(2) debería ser verdadero");
+  })
   
-  # positivos menores a 100 diferentes de 15
+  it("esNumeroDeLaSuerte(5) es verdadero", () => {
+      assert(esNumeroDeLaSuerte(5) === true, "esNumeroDeLaSuerte(5) debería ser verdadero");
+  })
   
-  def test_es_numero_de_la_suerte_2_es_verdadero(self):
-    self.assertTrue(es_numero_de_la_suerte(2))
-
-  def test_es_numero_de_la_suerte_5_es_verdadero(self):
-    self.assertTrue(es_numero_de_la_suerte(5))
-
-  def test_es_numero_de_la_suerte_9_es_verdadero(self):
-    self.assertTrue(es_numero_de_la_suerte(9))
-
-  def test_es_numero_de_la_suerte_45_es_verdadero(self):
-    self.assertTrue(es_numero_de_la_suerte(45))
-    
-  def test_es_numero_de_la_suerte_97_es_verdadero(self):
-    self.assertTrue(es_numero_de_la_suerte(97))  
-    
-  # mayores a 100
+  it("esNumeroDeLaSuerte(9) es verdadero", () => {
+      assert(esNumeroDeLaSuerte(9) === true, "esNumeroDeLaSuerte(9) debería ser verdadero");
+  })
   
-  def test_es_numero_de_la_suerte_101_es_falso(self):
-    self.assertFalse(es_numero_de_la_suerte(101))
+  it("esNumeroDeLaSuerte(45) es verdadero", () => {
+      assert(esNumeroDeLaSuerte(45) === true, "esNumeroDeLaSuerte(45) debería ser verdadero");
+  })
+  
+  it("esNumeroDeLaSuerte(97) es verdadero", () => {
+      assert(esNumeroDeLaSuerte(97) === true, "esNumeroDeLaSuerte(97) debería ser verdadero");
+  })
+})
 
-  def test_es_numero_de_la_suerte_12456_es_falso(self):
-    self.assertFalse(es_numero_de_la_suerte(12456))
 
-  def test_es_numero_de_la_suerte_3003_es_falso(self):
-    self.assertFalse(es_numero_de_la_suerte(3003))
+describe("numeros mayores a 100:", () => {
+  it("esNumeroDeLaSuerte(101) es falso", () => {
+      assert(esNumeroDeLaSuerte(101) === false, "esNumeroDeLaSuerte(101) debería ser falso");
+  })
+  
+  it("esNumeroDeLaSuerte(200) es falso", () => {
+      assert(esNumeroDeLaSuerte(200) === false, "esNumeroDeLaSuerte(200) debería ser falso");
+  })
+  
+  it("esNumeroDeLaSuerte(500) es falso", () => {
+      assert(esNumeroDeLaSuerte(500) === false, "esNumeroDeLaSuerte(500) debería ser falso");
+  })
+})
 
-  # negativos
+describe("numeros negativos:", () => {
+  it("esNumeroDeLaSuerte(-10) es falso", () => {
+      assert(esNumeroDeLaSuerte(-10) === false, "esNumeroDeLaSuerte(-10) debería ser falso");
+  })
+})
 
-  def test_es_numero_de_la_suerte_es_falso_si_es_negativo(self):
-    self.assertFalse(es_numero_de_la_suerte(-3))
-
-  # el 15
-
-  def test_es_numero_de_la_suerte_15_es_falso(self):
-    self.assertFalse(es_numero_de_la_suerte(15))
+describe("el 15:", () => {
+  it("esNumeroDeLaSuerte(15) es falso", () => {
+      assert(esNumeroDeLaSuerte(15) === false, "esNumeroDeLaSuerte(15) debería ser falso");
+  })
+})

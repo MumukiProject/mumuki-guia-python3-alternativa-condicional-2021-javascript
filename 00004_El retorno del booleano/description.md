@@ -4,19 +4,22 @@ si usás adecuadamente las expresiones booleanas, ¡no es necesario utilizar est
 Supongamos que queremos desarrollar una función `es_mayor_de_edad`, que nos diga si alguien tiene
 18 años o más. Una tentación es escribir lo siguiente:
 
-```python
-def es_mayor_de_edad(edad):
-  if edad >= 18:
-    return True
-  else:
-    return False
+```javascript
+function esMayorDeEdad(edad) {
+  if (edad >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
 ```
 
 Sin embargo, **este `if` es totalmente innecesario**, dado que la expresión `edad >= 18` ya es booleana:
 
-```python
-def es_mayor_de_edad(edad):
-  return edad >= 18
+```javascript
+function esMayorDeEdad(edad) {
+  return edad >= 18;
+}
 ```
 
 Mucho más simple, ¿no? :wink:
@@ -27,4 +30,4 @@ Mucho más simple, ¿no? :wink:
 > * es menor a 100, y
 > * no es el 15.
 >
-> Definí la función `es_numero_de_la_suerte` que dado un número diga si cumple la lógica anterior. ¡No vale usar `if`! 
+> Definí la función `esNumeroDeLaSuerte` que dado un número diga si cumple la lógica anterior. ¡No vale usar `if`! 
