@@ -2,13 +2,15 @@ _Bueno, quizás no sea para taaaanto, pero sí, el `if` es muy útil_  :stuck_ou
 
 Veamos otro ejemplo...
 
-```python
-# Equivalente a abs
-def valor_absoluto(numero):
-  if numero >= 0:
-    return numero
-  else:
-    return -numero
+```javascript
+// Equivalente a abs
+function valorAbsoluto(numero){
+  if(numero >= 0){
+    return numero;
+  }else{
+    return -numero;
+  }
+}
 ```
 
 ...y pongamos nombre a cada parte de la alternativa condicional:  
