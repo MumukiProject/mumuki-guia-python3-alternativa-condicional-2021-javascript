@@ -1,17 +1,33 @@
+describe("", function() {
+  it("El signo de 10 es 1 por ser positivo", function() {
+    assert.equal(signo(10), 1)
+  });
+  
+  it("El signo de 1 es 1 por ser positivo", function() {
+    assert.equal(signo(1), 1)
+  });
+  
+  it("El signo de 0 es 0", function() {
+    assert.equal(signo(0), 0)
+  });
+  
+  it("El signo de -1 es -1 por ser negativo", function() {
+    assert.equal(signo(-1), -1)
+  })
+  
+  it("El signo de -65 es -1 por ser negativo", function() {
+    assert.equal(signo(-65), -1)
+  })
+})
 
-  def test_signo_10_es_1(self):
-    self.assertEqual(signo(10), 1)
-
-  def test_signo_1_es_1(self):
-    self.assertEqual(signo(1), 1)
-
-  def test_signo_0_es_0(self):
-    self.assertEqual(signo(0), 0)
-
-  def test_signo_menos_65_es_menos_1(self):
-    self.assertEqual(signo(-65), -1)
-
-  def test_signo_menos_87_es_menos_1(self):
-    self.assertEqual(signo(-87), -1)
-
-
+describe("signo", () => {
+  
+  try {
+    let resultado = [-2, -1, 0, 1, 2].every(it => typeof(signo(it)) !== 'string');
+    it("no devuelve strings", () => {
+      assert(resultado, "ojo, en algun caso estás devolviendo strings")
+    })
+  } catch (e) {}
+  
+  
+})
