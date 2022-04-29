@@ -1,20 +1,20 @@
-
-  def test_medalla_segun_puesto_1(self):
-    self.assertEqual(medalla_segun_puesto(1), "oro")
-
-  def test_medalla_segun_puesto_2(self):
-    self.assertEqual(medalla_segun_puesto(2), "plata")
-
-  def test_medalla_segun_puesto_3(self):
-    self.assertEqual(medalla_segun_puesto(3), "bronce")
-
-  def test_medalla_segun_puesto_4(self):
-    self.assertEqual(medalla_segun_puesto(4), "nada")
-
-  def test_medalla_segun_puesto_5(self):
-    self.assertEqual(medalla_segun_puesto(5), "nada")
-
-  def test_medalla_segun_puesto_0(self):
-    self.assertEqual(medalla_segun_puesto(0), "nada")
-
-
+describe("", function() {
+  it("medallaSegunPuesto(1)", function() {
+    assert.equal(medallaSegunPuesto(1), "oro")
+  })
+  it("medallaSegunPuesto(2)", function() {
+    assert.equal(medallaSegunPuesto(2), "plata")
+  })
+  it("medallaSegunPuesto(3)", function() {
+    assert.equal(medallaSegunPuesto(3), "bronce")
+  })
+  it("medallaSegunPuesto(4)", function() {
+    assert.equal(medallaSegunPuesto(4), "nada")
+  })
+  it("medallaSegunPuesto(5)", function() {
+    assert.equal(medallaSegunPuesto(5), "nada")
+  })
+  it("medallaSegunPuesto(0)", function() {
+    assert.equal(medallaSegunPuesto(0), "nada")
+  })
+})
