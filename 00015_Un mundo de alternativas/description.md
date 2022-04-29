@@ -5,7 +5,7 @@ Ahora que ya vimos varios `if`s, volvamos a la función con la que iniciamos la 
 "Buenos días Ivi"
 ```
 
-¿No es un poco tarde para decir _buen día_? :dizzy_face: ¿No sería mejor que `saludar_a` hiciera lo siguiente?
+¿No es un poco tarde para decir _buen día_? :dizzy_face: ¿No sería mejor que `saludarA` hiciera lo siguiente?
 
  1. Si son menos de las 12, que diga _Buenos días_;
  2. **en caso contrario** y si son menos de las 19, que diga _Buenas tardes_;
