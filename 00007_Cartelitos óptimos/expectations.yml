@@ -2,10 +2,13 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:escribir_cartelito_optimo
+  inspection: DeclaresFunction:escribirCartelitoOptimo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: escribir_cartelito_optimo
-  inspection: Uses:escribir_cartelito
+  binding: escribirCartelitoOptimo
+  inspection: Uses:escribirCartelito
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Not:UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity3:escribirCartelitoOptimo
