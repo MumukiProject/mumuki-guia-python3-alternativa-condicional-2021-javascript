@@ -1,1 +1,1 @@
-Para el caso en que las cartas sean de distinto palo te va a servir el ya conocido `max`. :sunglasses:
+Recordá que para obtener el número más grande entre dos números tenemos la función `Math.max`. :sunglasses:
