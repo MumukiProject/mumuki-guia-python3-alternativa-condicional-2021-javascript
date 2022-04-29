@@ -1,10 +1,11 @@
-  
-  def test_valor_canto_truco_retruco_es_3(self):
-    self.assertEqual(valor_canto_truco("retruco"), 3)
-  
-  def test_valor_canto_truco_truco_es_2(self):
-    self.assertEqual(valor_canto_truco("truco"), 2)
-  
-  def test_valor_canto_truco_vale_cuatro_es_4(self):
-    self.assertEqual(valor_canto_truco("vale cuatro"), 4)
-  
+it("valorCantoTruco(\"retruco\") es 3", ()  => {
+  assert.equal(valorCantoTruco("retruco"), 3)
+})
+
+it("valorCantoTruco(\"truco\") es 2", ()  => {
+  assert.equal(valorCantoTruco("truco"), 2)
+})
+
+it("valorCantoTruco(\"vale cuatro\") es 4", ()  => {
+  assert.equal(valorCantoTruco("vale cuatro"), 4)
+})

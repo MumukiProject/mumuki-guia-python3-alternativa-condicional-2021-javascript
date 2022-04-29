@@ -7,11 +7,11 @@ Cuando se juega al truco, los equipos oponentes alternativamente pueden subir la
    <tr><td>vale cuatro</td><td>4</td></tr>
 </table>
 
-> Definí la función `valor_canto_truco`, que tome el canto y devuelva cuántos puntos vale.
->
-> ```python
-> ム valor_canto_truco("retruco")
+> Definí la función `valorCantoTruco`, que tome el canto y retorne cuántos puntos vale. 
+> 
+> ```javascript
+> ム valorCantoTruco("retruco")
 > 3
 > ```
 >
-> :warning: Asumí que sólo te van a pasar como argumento un string que represente un canto de truco. Por ejemplo, no vamos a probar la función para el caso `valor_canto_truco("zaraza")`
+> :warning: Asumí que sólo te van a pasar como argumento un string que represente un canto de truco. Por ejemplo, no vamos a probar la función para el caso `valorCantoTruco("zaraza")`
