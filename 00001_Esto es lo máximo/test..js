@@ -1,17 +1,17 @@
-
-  def test_maximo_4_10_es_10(self):
-    self.assertEqual(maximo(4, 10), 10)
-
-  def test_maximo_3_10_es_10(self):
-    self.assertEqual(maximo(3, 10), 10)
-
-  def test_maximo_2_10_es_10(self):
-    self.assertEqual(maximo(2, 10), 10)
-
-  def test_maximo_20_10_es_20(self):
-    self.assertEqual(maximo(20, 10), 20)
-
-  def test_maximo_20_15_es_20(self):
-    self.assertEqual(maximo(20, 15), 20)
-
-
+describe('', function() {
+  it("el maximo entre 4 y 10 es 10", function() {
+    assert.equal(maximo(4, 10), 10);
+  });
+  
+  it("el maximo entre 3 y 9 es 9", function() {
+    assert.equal(maximo(3, 9), 9);
+  });
+  
+  it("el maximo entre 20 y 11 es 20", function() {
+    assert.equal(maximo(20, 11), 20);
+  });
+  
+  it("el maximo entre 25 y 15 es 25", function() {
+    assert.equal(maximo(25, 15), 25);
+  });
+})
