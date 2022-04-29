@@ -1,5 +1,3 @@
-def listo(): 
-  pass
 
 function saludarA(quien, horario) {
   if (horario < 12){
