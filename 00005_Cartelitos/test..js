@@ -1,7 +1,6 @@
-  
-  def test_escribir_cartelito_Dra_Ana_Perez_es_Dra_Ana_Perez(self):
-    self.assertEqual(escribir_cartelito("Dra.", "Ana", "Perez"), "Dra. Ana Perez")
-  
-  def test_escribir_cartelito_Dr_Julio_Gelman_es_Dr_Julio_Gelman(self):
-    self.assertEqual(escribir_cartelito("Dr.", "Julio", "Gelman"), "Dr. Julio Gelman")
-
+it("escribirCartelito(\"Dra.\", \"Ana\", \"Pérez\"), es \"Dra. Ana Pérez\"", () => {
+  assert.equal(escribirCartelito("Dra.", "Ana", "Pérez"), "Dra. Ana Pérez")
+})
+it("escribirCartelito(\"Dr.\", \"Julio\", \"Gelman\"), es \"Dr. Julio Gelman\"", () => {
+  assert.equal(escribirCartelito("Dr.", "Julio", "Gelman"), "Dr. Julio Gelman")
+})
