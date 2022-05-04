@@ -19,7 +19,7 @@ function valorAbsoluto(numero){
  2. luego está _la acción_ del `if`, que retornará lo que queremos en caso de que la condición anterior sea **verdadera**;
  3. por último contamos con  _la acción_ del `else`, que retornará lo que queremos en caso de que la condición anterior sea **falsa**. 
 
-Además, a cada una de estas acciones también se las conoce como _ramas_ :deciduous_tree:, porque ramifican el flujo de ejecución, introduciendo en nuestro programa caminios alternativos. Ah, y algo no menor: las tabulaciones `↹` en cada rama son necesarias para que todo ande. :sweat_smile:
+Además, a cada una de estas acciones también se las conoce como _ramas_ :deciduous_tree:, porque ramifican el flujo de ejecución, introduciendo en nuestro programa caminios alternativos. :sweat_smile:
 
 > ¡Escribamos nuestro primer `if`! Definí una función `maximo`, que funcione como `Math.max` (¡no vale usarla!) y devuelva el máximo entre dos números:
 > 
