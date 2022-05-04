@@ -1,5 +1,5 @@
 Para cerrar, ahora que ya vimos cómo escribir la alternativa condicional, es momento de un pequeño recordatorio:
-si usás adecuadamente las expresiones booleanas, ¡no es necesario utilizar esta estructura de control!
+si usás adecuadamente las expresiones booleanas, ¡no siempre será necesario utilizar esta estructura de control!
 
 Supongamos que queremos desarrollar una función `esMayorDeEdad`, que nos diga si alguien tiene
 18 años o más. Una tentación es escribir lo siguiente:
