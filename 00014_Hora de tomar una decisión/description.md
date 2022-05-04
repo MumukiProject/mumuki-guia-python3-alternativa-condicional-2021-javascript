@@ -1,6 +1,6 @@
 En realidad no siempre saludamos con _buenos días_: por ejemplo, pasadas ciertas horas decimos _buenas noches_. :night_with_stars: 
 
-Por eso, ahora nos gustaría modificar nuestra función `saludar_a` para que tome un parámetro adicional, `horario`, y retorne un saludo diferente según éste: 
+Por eso, ahora nos gustaría modificar nuestra función `saludarA` para que tome un parámetro adicional, `horario`, y retorne un saludo diferente según éste: 
 
 ```javascript
 ム saludarA("Dani", 10)
