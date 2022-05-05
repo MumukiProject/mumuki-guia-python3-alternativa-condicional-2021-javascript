@@ -1,4 +1,4 @@
-Acaba de empezar el día :sunrise: y ya tenemos que hacer una nueva función :sleeping:.
+Acaba de empezar el día :sunrise: y ya tenemos que hacer una nueva función. :sleeping:
 
 > Definí la función `saludarA` que tome un nombre y salude a la persona con un clásico _Buenos días_: 
 > 
