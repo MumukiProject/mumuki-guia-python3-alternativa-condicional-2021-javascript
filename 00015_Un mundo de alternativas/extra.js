@@ -17,3 +17,7 @@ function saludarARecargado(quien, horario) {
     return "Buenas noches " + quien;
   }
 }
+
+function listo() {
+  return;
+}
